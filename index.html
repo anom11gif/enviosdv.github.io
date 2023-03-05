@@ -1,9 +1,217 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    
+    <style>
+   html,
+		body {
+			margin: 0px;
+			padding: 0px;
+			width: 100vw;
+    		height: 100vh;
+		}
 
-<header>
-  <title>DJPACK - Inicio</title>
-</header>
- <div style="background-color: red; width:100%; height:10%;"></div>
+		body { 
+			background: #8d8dab;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+    		align-items: center;
+    
+		}
+.circle {
+			width: 400px;
+			height: 400px;
+			border-radius: 50%;
+			background-color: #FEE376;
+			display: flex;
+			
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+		}
+		.circle img {
+			max-width: 50%;
+			max-height: 50%;
+			transform: rotate(325deg);
+
+		}
+		.circle1 {
+			width: 5px;
+			height: 5px;
+			border-radius: 50%;
+			background-color: rgba(228, 4, 4, 0.91);
+			
+				
+			
+		}
+		
+
+		.cuadro {
+		    border: 5px solid #fcfad3;
+		    width: 200px;
+			height: 200px;
+		    animation: rotate-circle 4.01s  linear 1.0s infinite normal;
+		    border-radius: 10px;
+			
+		}
+		
+
+
+
+		
+		
+
+		
+
+		@keyframes rotate-circle {
+			0% {
+				transform: rotate(0deg);
+			}
+			50% {
+				transform: rotate(90deg);
+			}
+		}
+		
+		@keyframes rotate-circle1 {
+			0% {
+				transform: rotate(0deg);
+			}
+			50% {
+				transform: rotate(90deg);
+			}
+		}
+
+		
+hr {
+  border: none;
+  height: 20px;
+  width: 200px;
+  background-color: #ffffff;
+  animation: mover-linea 2s infinite;
+}
+
+@keyframes mover-linea {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+			
+
+		
+
+
+
+
+h1 {
+  color: hsla(0, 0%, 0%, 0.9);
+  font: normal 90px Varela Round, sans-serif;
+  height: 90px;
+  left: 0;
+  letter-spacing: 5px;
+  text-transform: Q;
+  animation: move 5s infinite;  
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 rgb(255, 255, 255), 
+      3px -3px 0 rgb(255, 255, 255), 
+      2px -2px 0 rgb(255, 255, 255), 
+      1px -1px 0 rgb(255, 255, 255),
+      -4px 4px 0 rgb(255, 255, 255), 
+      -3px 3px 0 rgb(255, 255, 255), 
+      -2px 2px 0 rgb(255, 255, 255), 
+      -1px 1px 0 rgb(255, 255, 255)
+    ;
+  }
+  20% {    
+    text-shadow:      
+      -4px -4px 0 rgb(255, 255, 255), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 rgb(255, 255, 255), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 rgb(255, 255, 255), 
+      3px 3px 0 rgb(255, 255, 255), 
+      2px 2px 0 rgb(255, 255, 255), 
+      1px 1px 0 rgb(255, 255, 255)      
+    ;
+  }
+  5% {
+    text-shadow:
+      -4px 4px 0 rgb(25, 255, 255), 
+      -3px 3px 0 rgb(25, 255, 255), 
+      -2px 2px 0 rgb(255, 255, 255), 
+      -1px 1px 0 rgb(255, 255, 255),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  7% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 rgb(255, 255, 255), 
+      -3px -3px 0 rgb(255, 255, 255), 
+      -2px -2px 0 rgb(255, 255, 255), 
+      -1px -1px 0 rgb(255, 255, 255)      
+    ;
+  }
+  10% {
+    text-shadow:
+      4px -4px 0 rgb(255, 255, 255), 
+      3px -3px 0 rgb(255, 255, 255), 
+      2px -2px 0 rgb(255, 255, 255), 
+      1px -1px 0 rgb(255, 255, 255),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+	
+			
+    </style>
+  </head>
+	
+   
+  <body>
+	
+<div class="cuadro">
+	
+    <center>	
+<div class="circle">
+	<img src="k.gif">
+</div>	 
+
+    </center>	
+</div>
+
+
+<br><br><br><br><br><br><br><br><br>
+<h1>SISTEMA DE ENVIOS</h1>
+	
+  </body>
 </html>
-         
-      
+
+
+
+
+
+
+
+
+
